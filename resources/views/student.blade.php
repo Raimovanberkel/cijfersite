@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
-    <title>Cijfers</title>
+    <title>Student</title>
 </head>
 
 @section('body')
@@ -18,36 +18,17 @@
         <img alt="Cijfersite" src="...">
       </a>
     </div>
-    <p class="navbar-text navbar-right">Signed in as Jordy</p>
+    <p class="navbar-text navbar-right">Signed in as PLACEHOLDER</p>
   </div>
 </nav>
 
 
-    <table class="display data-table">
-        <thead>
-            <tr>
-                <th>Schoolvak</th>
-                <th>Cijfers</th>
-            </tr>
-        </thead>
-        <tbody>
-        @foreach($grades as $grade)
-        <tr>
-        <td>{{ $grade->course }}</td>
-        <td>{{ $grade->score }}</td>
-        </tr>
-        @endforeach   
-        </tbody>
-    </table>
-        @section('adminlte_js')
-            <script>
-                $(document).ready(function () {
-                    $('.data-table').dataTable();
-                });
-        </script>
-            @yield('js')
-        @stop
-@stop 
+<h1>Welkom</h1>
+
+
+
+
+
 
 
 
