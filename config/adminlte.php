@@ -133,7 +133,7 @@ return [
             'icon' => 'lock',
         ],
         [
-            'text'    => 'Multilevel',
+            'text'    => 'Klassen',
             'icon'    => 'share',
             'submenu' => [
                 [

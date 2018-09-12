@@ -10,5 +10,5 @@
 @stop
 
 @section('content')
-    <p>Goeden dag!</p>
+   <h1>Welkom</h1><p>	{{{ isset(Auth::user()->name) ? Auth::user()->name : Auth::user()->email }}}</p>
 @stop
